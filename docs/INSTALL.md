@@ -13,11 +13,11 @@
 * Internet connection
 
 In `fedora`-based distributions, one may install the requirements by running:
-* `sudo dnf --refresh install @development-tools gvim python2 git clang-devel`
+* `sudo dnf --refresh install @development-tools python2 git clang-devel`
 
 In `debian`-based distributions, one may install the requirements by running:
 * `sudo apt-get update`
-* `sudo apt-get install build-essential vim-gnome python2.7 git libclang-dev`
+* `sudo apt-get install build-essential python2.7 git libclang-dev`
 
 # Installation
 Default installation path is set to `/opt/yavide`. To use different installation directory, provide it as a command line argument to `install.sh` script.
